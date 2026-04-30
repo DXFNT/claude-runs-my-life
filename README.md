@@ -20,6 +20,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 |---|---|
 | 0 | Cover |
 | 1 | Príkaz `odpis mi` — Claude pripraví draft, ja klikám Send |
+| 2 | Príkaz `review od` — Claude pýta Google recenzie z reálnych konverzácií |
 
 ## Pridanie nového slidu
 

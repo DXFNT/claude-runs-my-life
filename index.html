@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<title>Claude runs my life · Dexfinity</title>
+<meta name="viewport" content="width=1920">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Questrial&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#05024E;
+    --blue:#0065F7;
+    --teal:#16AB8B;
+    --orange:#ff7f00;
+    --dim:#a0a0c0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:#0a0726;color:#fff;font-family:'Poppins',Arial,sans-serif;overflow:hidden}
+
+  /* Stage scales every 1920×1080 slide to fit any viewport */
+  .stage{
+    position:fixed;inset:0;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .deck{
+    width:1920px;height:1080px;position:relative;
+    transform-origin:center;
+  }
+
+  .slide{
+    position:absolute;inset:0;
+    background:linear-gradient(135deg,#05024E 0%,#0a0762 50%,#05024E 100%);
+    color:#fff;padding:80px 100px;
+    display:none;flex-direction:column;
+    overflow:hidden;
+  }
+  .slide.active{display:flex}
+
+  /* Lego brick decoratívne kruhy */
+  .brick{position:absolute;border-radius:50%;background:var(--blue);opacity:.06;pointer-events:none}
+  .b1{width:520px;height:520px;top:-180px;right:-120px}
+  .b2{width:340px;height:340px;bottom:-100px;left:-80px;background:var(--teal);opacity:.05}
+  .b3{width:180px;height:180px;top:46%;right:8%;opacity:.08}
+
+  header{display:flex;justify-content:space-between;align-items:center;margin-bottom:40px;position:relative;z-index:2}
+  .logo{height:56px;width:auto;display:block;opacity:.95}
+  .meta{font-family:'Poppins';font-size:14px;color:var(--dim);letter-spacing:1.5px;text-transform:uppercase}
+  .meta b{color:var(--blue)}
+
+  /* Cover slide */
+  .cover-content{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;position:relative;z-index:2}
+  .cover-eyebrow{font-family:'Poppins';font-size:22px;letter-spacing:8px;color:var(--blue);text-transform:uppercase;font-weight:600;margin-bottom:34px}
+  .cover-title{font-family:'Questrial',Arial,sans-serif;font-size:200px;line-height:.95;font-weight:400;letter-spacing:-3px;margin-bottom:30px}
+  .cover-title em{font-style:normal;color:var(--blue)}
+  .cover-sub{font-family:'Poppins';font-size:34px;line-height:1.4;color:#cdcde6;font-weight:300;max-width:1400px}
+  .cover-sub b{color:#fff;font-weight:500}
+  .cover-by{margin-top:60px;font-family:'Poppins';font-size:18px;color:var(--dim);letter-spacing:3px;text-transform:uppercase}
+  .cover-by b{color:#fff;letter-spacing:1px;text-transform:none;font-weight:500;font-size:22px;display:inline-block;margin-right:14px}
+
+  /* Content slide */
+  .eyebrow{font-family:'Poppins';font-size:18px;letter-spacing:6px;color:var(--blue);text-transform:uppercase;font-weight:600;margin-bottom:18px;position:relative;z-index:2}
+  h1{font-family:'Questrial',Arial,sans-serif;font-size:104px;line-height:1.05;font-weight:400;letter-spacing:-1.5px;margin-bottom:22px;position:relative;z-index:2}
+  h1 code{font-family:'Poppins',monospace;background:rgba(0,101,247,.18);border:2px solid var(--blue);padding:6px 28px;border-radius:14px;color:var(--blue);font-weight:500;font-size:88px}
+  .punchline{font-family:'Poppins';font-size:34px;line-height:1.4;color:#fff;font-weight:300;margin-bottom:60px;max-width:1620px;position:relative;z-index:2}
+  .punchline b{color:var(--blue);font-weight:600}
+  .punchline em{font-style:italic;color:#cdcde6}
+
+  .flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:24px;align-items:stretch;margin-bottom:46px;position:relative;z-index:2}
+  .step{
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(0,101,247,.35);
+    border-radius:18px;padding:32px 30px;
+  }
+  .step .num{font-family:'Questrial';font-size:64px;color:var(--blue);line-height:1;margin-bottom:14px}
+  .step h3{font-family:'Poppins';font-size:26px;font-weight:600;margin-bottom:12px;letter-spacing:-.3px}
+  .step p{font-size:19px;line-height:1.55;color:#d8d8ee;font-weight:300}
+  .step code{font-family:'Poppins',monospace;background:rgba(22,171,139,.18);color:var(--teal);padding:2px 10px;border-radius:6px;font-weight:500;font-size:18px}
+  .arrow{display:flex;align-items:center;justify-content:center;font-family:'Questrial';font-size:48px;color:var(--blue);opacity:.7}
+
+  .safety{
+    margin-top:auto;
+    padding:24px 32px;
+    border:1px dashed rgba(22,171,139,.5);
+    border-radius:14px;
+    background:rgba(22,171,139,.06);
+    font-family:'Poppins';font-size:20px;line-height:1.5;color:#bff0e0;font-weight:300;
+    position:relative;z-index:2;
+  }
+  .safety b{color:var(--teal);font-weight:600}
+
+  footer{display:flex;justify-content:space-between;align-items:center;color:var(--dim);font-size:14px;letter-spacing:1px;font-family:'Poppins';position:relative;z-index:2;margin-top:32px}
+  footer .tag{color:var(--blue);letter-spacing:4px;font-weight:600}
+
+  /* Navigation UI (visible on all slides) */
+  .nav-ui{
+    position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+    display:flex;align-items:center;gap:14px;z-index:1000;
+    background:rgba(5,2,78,.65);backdrop-filter:blur(12px);
+    border:1px solid rgba(0,101,247,.35);
+    padding:10px 18px;border-radius:999px;
+    font-family:'Poppins';font-size:14px;color:#fff;
+  }
+  .nav-ui button{
+    background:transparent;border:none;color:#fff;font-size:18px;cursor:pointer;
+    width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    transition:background .15s;
+  }
+  .nav-ui button:hover{background:rgba(0,101,247,.25)}
+  .nav-ui .counter{min-width:60px;text-align:center;font-feature-settings:"tnum";color:var(--dim)}
+  .nav-ui .counter b{color:#fff;font-weight:600}
+  .nav-ui .help{font-size:12px;color:var(--dim);padding-left:10px;border-left:1px solid rgba(255,255,255,.15);margin-left:6px}
+  @media (max-width:600px){.nav-ui .help{display:none}}
+</style>
+</head>
+<body>
+
+<div class="stage">
+  <div class="deck" id="deck">
+
+    <!-- ─── SLIDE 0 · COVER ─────────────────────────────────────────── -->
+    <section class="slide" data-id="0">
+      <span class="brick b1"></span>
+      <span class="brick b2"></span>
+      <span class="brick b3"></span>
+
+      <header>
+        <img class="logo" src="https://www.dexfinity.com/wp-content/uploads/2021/03/Logo-Small-Dark-Landscape@2x.png" alt="Dexfinity">
+        <div class="meta">Internal · External Training Series</div>
+      </header>
+
+      <div class="cover-content">
+        <div class="cover-eyebrow">Dexfinity × AI</div>
+        <h1 class="cover-title">Claude<br>runs my <em>life</em>.</h1>
+        <p class="cover-sub">Príbehy zo zákulisia. Reálne workflowy, ktoré som <b>nedal HR ani IT</b>. Naučil ich Claude. Niektoré sú geniálne, niektoré sú trápne. Všetky šetria čas.</p>
+        <div class="cover-by"><b>Pavol Adamčák</b> · Dexfinity</div>
+      </div>
+
+      <footer>
+        <span>One chat = one slide. Series in progress.</span>
+        <span class="tag">GO BEYOND</span>
+      </footer>
+    </section>
+
+    <!-- ─── SLIDE 1 · ODPIS MI ─────────────────────────────────────── -->
+    <section class="slide" data-id="1">
+      <span class="brick b1"></span>
+      <span class="brick b2"></span>
+      <span class="brick b3"></span>
+
+      <header>
+        <img class="logo" src="https://www.dexfinity.com/wp-content/uploads/2021/03/Logo-Small-Dark-Landscape@2x.png" alt="Dexfinity">
+        <div class="meta">Slide <b>01</b> · Claude runs my life</div>
+      </header>
+
+      <div class="eyebrow">Email shortcut</div>
+      <h1>Príkaz <code>odpis mi</code></h1>
+      <p class="punchline">Pondelok 9:14. <b>27 emailov</b> v inboxe. Žiadny tracker, žiadne integrácie. Stačí napísať Claude komu odpisujem. <em>O 30 sekúnd je draft v Gmaili.</em></p>
+
+      <div class="flow">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Poviem komu.</h3>
+          <p><code>odpis mi Boris</code>. Žiadny formulár, žiadne menu. Len meno.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Claude prečíta thread.</h3>
+          <p>Nájde posledný relevantný mail, pochopí kontext, navrhne odpoveď v <b>mojom štýle</b>. Preview rovno v chate.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Draft v Gmaili.</h3>
+          <p>Po mojom <code>OK</code> draft pristane do správneho threadu. <b>S mojou rich HTML pätičkou.</b> Ja editujem, ja klikám Send.</p>
+        </div>
+      </div>
+
+      <div class="safety">
+        <b>A je to bezpečné?</b> Áno. Token v macOS Keychain (mimo iCloud), audit log s týždenným launchd review, hard rule <em>"žiadny auto-send bez Pavlovho OK"</em>, kill switch jedným klikom. <b>Bližšie nabudúce.</b>
+      </div>
+
+      <footer>
+        <span>Claude runs my life · Slide 01</span>
+        <span class="tag">GO BEYOND</span>
+      </footer>
+    </section>
+
+  </div>
+</div>
+
+<!-- Navigation UI -->
+<div class="nav-ui" id="nav-ui">
+  <button id="prev" title="← previous">‹</button>
+  <span class="counter"><b id="cur">1</b> / <span id="tot">2</span></span>
+  <button id="next" title="→ next">›</button>
+  <span class="help">← → Space · F fullscreen</span>
+</div>
+
+<script>
+(function(){
+  const slides=[...document.querySelectorAll('.slide')];
+  const total=slides.length;
+  const totEl=document.getElementById('tot');
+  const curEl=document.getElementById('cur');
+  totEl.textContent=total;
+
+  function go(idx){
+    if(idx<0)idx=0;if(idx>total-1)idx=total-1;
+    slides.forEach((s,i)=>s.classList.toggle('active',i===idx));
+    curEl.textContent=idx+1;
+    if(history.replaceState){history.replaceState(null,'','#'+idx);}
+  }
+
+  function current(){
+    const i=slides.findIndex(s=>s.classList.contains('active'));
+    return i<0?0:i;
+  }
+
+  document.getElementById('prev').onclick=()=>go(current()-1);
+  document.getElementById('next').onclick=()=>go(current()+1);
+
+  document.addEventListener('keydown',e=>{
+    if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;
+    switch(e.key){
+      case 'ArrowRight':case ' ':case 'PageDown':case 'n':go(current()+1);e.preventDefault();break;
+      case 'ArrowLeft':case 'PageUp':case 'p':go(current()-1);e.preventDefault();break;
+      case 'Home':go(0);e.preventDefault();break;
+      case 'End':go(total-1);e.preventDefault();break;
+      case 'f':case 'F':
+        if(!document.fullscreenElement){document.documentElement.requestFullscreen();}
+        else{document.exitFullscreen();}
+        e.preventDefault();break;
+    }
+  });
+
+  // Scale stage to fit viewport
+  function fit(){
+    const deck=document.getElementById('deck');
+    const sx=window.innerWidth/1920;
+    const sy=window.innerHeight/1080;
+    const s=Math.min(sx,sy);
+    deck.style.transform='scale('+s+')';
+  }
+  window.addEventListener('resize',fit);
+  fit();
+
+  // Initial slide from hash or 0
+  const initial=parseInt(location.hash.replace('#',''))||0;
+  go(initial);
+})();
+</script>
+</body>
+</html>

@@ -19,9 +19,12 @@ https://dxfnt.github.io/claude-runs-my-life/
 | # | Téma |
 |---|---|
 | 0 | Cover |
-| 1 | Príkaz `odpis mi` — Claude pripraví draft, ja klikám Send |
-| 2 | Príkaz `review od` — Claude pýta Google recenzie z reálnych konverzácií |
-| 3 | Personal → team licencia — pamäť ostáva, connectors si pýtajú handshake |
+| 1 | Príkaz `odpis mi`. Claude pripraví draft, ja klikám Send |
+| 2 | Príkaz `review od`. Claude pýta Google recenzie z reálnych konverzácií |
+| 3 | Personal → team licencia. Pamäť ostáva, connectors si pýtajú handshake |
+| 4 | Dexguide content boost. Collabim Holy Grail gap → pipeline článkov |
+| 5 | 3 prompty, 1 case study. Raw materiály → live Dexfinity deck |
+| 6 | Tomáš pingne, faktúry píšu seba. Full-auto monthly billing pipeline |
 
 ## Pridanie nového slidu
 

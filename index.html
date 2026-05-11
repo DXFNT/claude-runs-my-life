@@ -481,6 +481,50 @@
       </footer>
     </section>
 
+    <section class="slide" data-id="9">
+      <span class="brick b1"></span>
+      <span class="brick b2"></span>
+      <span class="brick b3"></span>
+
+      <header>
+        <img class="logo" src="https://www.dexfinity.com/wp-content/uploads/2021/03/Logo-Small-Dark-Landscape@2x.png" alt="Dexfinity">
+        <div class="meta">Slide <b>09</b> · Claude runs my life</div>
+      </header>
+
+      <div class="eyebrow">GitHub security</div>
+      <h1>Public repo s vašimi emailmi je trojkrokový problém.</h1>
+      <p class="punchline">Kolega ma upozornil. <b>dxfnt/inbox-intel</b> bol public a obsahoval reálne emaily klientov, právnikov, banky aj personal Gmaily tretích strán. A GitHub Pages to renderoval ako <em>live web</em>, ktorý mohol indexovať Google. Tu sú tri kroky čo robiť.</p>
+
+      <div class="flow">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Repo private. Pages disable.</h3>
+          <p>Flip na private je 5 sekúnd. Ale ak bol Pages enabled, treba ho aj explicit <code>DELETE</code>. Inak <code>org.github.io/repo</code> URL ešte chvíľu žije v Googli aj Wayback Machine.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Org default permission na <code>none</code>.</h3>
+          <p>GitHub default je <code>read</code> = každý člen orgu vidí všetky private repos. Neviditeľná leak surface. Zmena na <code>none</code> + explicit collaborators per repo. Toto je čistý model.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Pred public push vždy grep emaily.</h3>
+          <p>Pred každým public push grep adresy mimo vlastnej domény, klient mená, interné poznámky. Ak nájdeš tretiu stranu bez ich súhlasu, default je private. Public je výnimka s OK.</p>
+        </div>
+      </div>
+
+      <div class="safety">
+        <b>Private nie je magic erase.</b> Pages mohol byť indexovaný Googlom, Wayback Machine mohol zachytiť snapshot, git história stále obsahuje pôvodné commity. Follow-up. Search Console removal request, archive.org email, prípadne git history wipe.
+      </div>
+
+      <footer>
+        <span>Claude runs my life · Slide 09</span>
+        <span class="tag">GO BEYOND</span>
+      </footer>
+    </section>
+
   </div>
 </div>
 

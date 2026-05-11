@@ -25,6 +25,9 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 4 | Dexguide content boost. Collabim Holy Grail gap → pipeline článkov |
 | 5 | 3 prompty, 1 case study. Raw materiály → live Dexfinity deck |
 | 6 | Tomáš pingne, faktúry píšu seba. Full-auto monthly billing pipeline |
+| 7 | Kedy Chrome nestačí. Google Docs API namiesto browser automation |
+| 8 | Keď klient odchádza, otvor väčšie dvere. Nebshop → Nebbia premium partner |
+| 9 | Public repo s vašimi emailmi je trojkrokový problém. GitHub security |
 
 ## Pridanie nového slidu
 

@@ -28,6 +28,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 7 | Kedy Chrome nestačí. Google Docs API namiesto browser automation |
 | 8 | Keď klient odchádza, otvor väčšie dvere. Nebshop → Nebbia premium partner |
 | 9 | Public repo s vašimi emailmi je trojkrokový problém. GitHub security |
+| 10 | Keď audit povie pauznúť, my sa pýtame prečo. DexIQ #27 root cause |
 
 ## Pridanie nového slidu
 

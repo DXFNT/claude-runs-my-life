@@ -569,6 +569,50 @@
       </footer>
     </section>
 
+    <section class="slide" data-id="11">
+      <span class="brick b1"></span>
+      <span class="brick b2"></span>
+      <span class="brick b3"></span>
+
+      <header>
+        <img class="logo" src="https://www.dexfinity.com/wp-content/uploads/2021/03/Logo-Small-Dark-Landscape@2x.png" alt="Dexfinity">
+        <div class="meta">Slide <b>11</b> · Claude runs my life</div>
+      </header>
+
+      <div class="eyebrow">Secrets pipeline · Bootstrap</div>
+      <h1>Sekrety bez pomlčiek.</h1>
+      <p class="punchline">Pavol klikol Sign in. Claude prešiel Chrome do Ahrefs aj GCP, vygeneroval kľúče, uložil ich do Keychain, hodil do GitHub Secrets a deploynul prvý živý audit. <b>41 sekúnd</b> od triggeru po HTTP 200 na Pages URL.</p>
+
+      <div class="flow">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Pavol Sign in.</h3>
+          <p>Jediný klik z jeho strany. Ahrefs login, GCP login. Heslá nepísal Claude, password fields zostali Pavlove.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Generate. Copy. Keychain.</h3>
+          <p>Chrome MCP klik Generate API key. <code>pbpaste</code> v Bash vytiahne hodnotu z clipboardu, validuje prefix <code>AIza</code> alebo <code>gQ09</code>, uloží do macOS Keychain. Clipboard sa hneď vyčistí.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Secret set. Run. Live.</h3>
+          <p><code>security find-generic-password | gh secret set</code> nahodí kľúč do repo. <code>gh workflow run</code> spustí pipeline. Za 41 sek je audit s Anthropic plus Ahrefs plus PSI dátami na github.io.</p>
+        </div>
+      </div>
+
+      <div class="safety">
+        <b>Cesta A vs Cesta B.</b> Keď je kľúč viditeľný v Chrome MCP screenshote (chat transcript je local-only ale stále leak), ponúkam dve cesty. <b>A</b> = použijem teraz, revoknneš v UI po overení. <b>B</b> = revoke hneď, regenerujem bez screenshotu. Default odporúčam B. Pri low-impact API keys (PSI quota theft, Ahrefs read-only) je A OK pri rýchlych iteráciách. Plus Google API keys vie restrict na single API hneď pri create, takže aj OCR-čitateľný prefix je viazaný na 25k requests/day jedného endpointu.
+      </div>
+
+      <footer>
+        <span>Claude runs my life · Slide 11</span>
+        <span class="tag">GO BEYOND</span>
+      </footer>
+    </section>
+
   </div>
 </div>
 

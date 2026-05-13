@@ -29,6 +29,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 8 | Keď klient odchádza, otvor väčšie dvere. Nebshop → Nebbia premium partner |
 | 9 | Public repo s vašimi emailmi je trojkrokový problém. GitHub security |
 | 10 | Keď audit povie pauznúť, my sa pýtame prečo. DexIQ #27 root cause |
+| 11 | Sekrety bez pomlčiek. Bootstrap secrets pipeline za 41 sek |
 
 ## Pridanie nového slidu
 

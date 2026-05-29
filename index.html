@@ -897,6 +897,46 @@
       </footer>
     </section>
 
+    <section class="slide" data-id="19">
+      <span class="brick b1"></span>
+      <span class="brick b2"></span>
+      <span class="brick b3"></span>
+
+      <header>
+        <img class="logo" src="https://www.dexfinity.com/wp-content/uploads/2021/03/Logo-Small-Dark-Landscape@2x.png" alt="Dexfinity">
+        <div class="meta">Slide <b>19</b> · Claude runs my life</div>
+      </header>
+
+      <div class="eyebrow">hub.dexfinity.com</div>
+      <h1>Jeden login, všetky nástroje.</h1>
+      <p class="punchline">GAds report, PMax IQ, audity — každý mal vlastnú URL a vlastné heslo. Teraz jedno miesto, jedna session, proxy cez bypass secret. Staré linky presmerujú samy.</p>
+
+      <div class="flow">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Redirect.</h3>
+          <p><code>dex-gads-report.pages.dev</code> → 301 → <code>hub.dexfinity.com/dex-gads-report</code>. Každý externý nástroj má <code>_worker.js</code> s bypass secret logikou.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Auth.</h3>
+          <p>Hub overí session cookie. Prihlásený? Pošle <code>X-Hub-Bypass</code> header a proxuje request na zdrojový nástroj.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Obsah.</h3>
+          <p>Nástroj rozozná bypass header a obsluží request. Bez neho → späť na hub. Žiadna duplicitná auth logika v každom nástroji.</p>
+        </div>
+      </div>
+
+      <footer>
+        <span>Claude runs my life · Slide 19</span>
+        <span class="tag">GO BEYOND</span>
+      </footer>
+    </section>
+
   </div>
 </div>
 

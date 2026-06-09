@@ -32,3 +32,26 @@ Odkaz "Návod na stiahnutie ↗" v pätičke oboch slidov. Auto-číslovanie zap
 POZOR: vložením nového slidu sa hash posunul +1 od pôvodného slidu 2.
 Mapovanie teraz: #1 odpis mi, #2 setup (nový), #3 review od, #4 account switch ...
 #27 voice. (Pôvodné #2..#26 sú teraz #3..#27.)
+
+---
+
+## Slide 3 (pôv. 2) — Príkaz "review od"  [V+P]
+
+**Kľúčová lekcia (Pavol):** Nie je to len "napíš review request". Je to pravidelná
+RUTINA ktorá číta moje maily a HĽADÁ PRÍLEŽITOSTI — koho viem požiadať o Google recenziu.
+Automatizovaný opportunity-finding systém. Recenzie podporujú vyhľadávanie aj AI
+odporúčania. Claude navrhne koho osloviť.
+
+**V — verejný návod:** ako postaviť recurring "find review opportunities" rutinu
+(scheduled scan inboxu + ranking kandidátov). Bez osobných dát.
+**P — privátny:** moje place IDs (BA/Praha), reviews-sent tracker, konkrétne kandidátky.
+
+**Súvisiaca akcia:** obnoviť scheduled task `weekly-review-candidates-scan` (pondelok),
+nech reálne pravidelne beží. → samostatný nový chat (brief pripravený).
+
+Doplnené (Pavol): rutina v podstate beží. nové = týždenný WhatsApp ping s kandidátmi,
+auto-navrhnutý text recenzie z kontextu, draft v Gmaili (otvorím, upravím, pošlem).
+
+Status: ✅ HOTOVO. Slide #3 enrichnutý (punchline + krok 3 WhatsApp ping). Verejný
+návod guides/review-opportunity-routine.md + footer odkaz. Rutina renewal = nový chat
+(brief daný Pavlovi). Žiadny auto-send.

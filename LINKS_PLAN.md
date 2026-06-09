@@ -1,0 +1,34 @@
+# Claude Runs My Life — plán odklikov (dual mode)
+
+Cieľ: z každého slidu odklik na zdroj. **V** = verejný návod (DXFNT public, OK na školení).
+**P** = privátny zdroj (DexfinityHUB org, len členovia). **V+P** = duál.
+
+Bezpečnostný princíp: odkaz na privátny repo nič neprezradí (nečlen dostane 404).
+Deck môže ostať verejný. Linkovať na privátne je OK.
+
+Status: prechádzame slide po slide, Pavol dáva input ku kľúčovej lekcii a čo doplniť.
+
+---
+
+## Slide 1 — Príkaz "odpis mi"  [V+P]
+
+**Kľúčová lekcia (Pavol):** Človek si autorizuje svojho VLASTNÉHO Clauda na čítanie
+inboxu a vkladanie draftov, cez vlastnú Google Cloud OAuth app ("Desktop Ferisprav_bot").
+Refine pre publikum = trust & safety model:
+1. Vlastná OAuth app + vlastný token (odvolateľný prístup).
+2. Draft only, nikdy auto-send — Send klikáš ty.
+3. Token v Keychain, nie v iCloud.
+
+**V — verejný návod:** "Ako autorizovať vlastného Clauda na drafty v Gmaili."
+GCP projekt → enable Gmail API → OAuth Desktop creds → script → consent → token Keychain
+→ draft-only guard → reply-in-thread cez threadId. Bez osobných dát.
+
+**P — privátny zdroj:** reálny gmail_oauth.py setup, HTML pätička, reply-context, tracker.
+
+Status: ✅ HOTOVO. Email téma rozdelená na 2 slidy (slide 1 = outcome, slide 1b/02 =
+setup + trust/safety). Verejný návod + pamäťové pravidlo v `guides/email-draft-setup.md`.
+Odkaz "Návod na stiahnutie ↗" v pätičke oboch slidov. Auto-číslovanie zapnuté (JS).
+
+POZOR: vložením nového slidu sa hash posunul +1 od pôvodného slidu 2.
+Mapovanie teraz: #1 odpis mi, #2 setup (nový), #3 review od, #4 account switch ...
+#27 voice. (Pôvodné #2..#26 sú teraz #3..#27.)

@@ -91,6 +91,10 @@
 
   footer{display:flex;justify-content:space-between;align-items:center;color:var(--dim);font-size:14px;letter-spacing:1px;font-family:'Poppins';position:relative;z-index:2;margin-top:32px}
   footer .tag{color:var(--blue);letter-spacing:4px;font-weight:600}
+  footer .src{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(22,171,139,.55);padding-bottom:2px;letter-spacing:.5px;transition:color .15s}
+  footer .src:hover{color:#fff}
+  .safety a{color:var(--teal);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(22,171,139,.55)}
+  .safety a:hover{color:#fff}
 
   /* Navigation UI (visible on all slides) */
   .nav-ui{
@@ -178,11 +182,58 @@
       </div>
 
       <div class="safety">
-        <b>A je to bezpečné?</b> Áno. Token v macOS Keychain (mimo iCloud), audit log s týždenným launchd review, hard rule <em>"žiadny auto-send bez Pavlovho OK"</em>, kill switch jedným klikom. <b>Bližšie nabudúce.</b>
+        <b>A je to bezpečné?</b> Áno. Token v macOS Keychain (mimo iCloud), audit log s týždenným launchd review, hard rule <em>"žiadny auto-send bez Pavlovho OK"</em>, kill switch jedným klikom. <b>Ako si to postavíš sám je hneď ďalší slide.</b>
       </div>
 
       <footer>
         <span>Claude runs my life · Slide 01</span>
+        <a class="src" href="https://github.com/DXFNT/claude-runs-my-life/blob/main/guides/email-draft-setup.md" target="_blank" rel="noopener">Návod na stiahnutie ↗</a>
+        <span class="tag">GO BEYOND</span>
+      </footer>
+    </section>
+
+    <!-- ─── SLIDE 1b · ODPIS MI · SETUP ─────────────────────────── -->
+    <section class="slide" data-id="1b">
+      <span class="brick b1"></span>
+      <span class="brick b2"></span>
+      <span class="brick b3"></span>
+
+      <header>
+        <img class="logo" src="https://www.dexfinity.com/wp-content/uploads/2021/03/Logo-Small-Dark-Landscape@2x.png" alt="Dexfinity">
+        <div class="meta">Slide <b>02</b> · Claude runs my life</div>
+      </header>
+
+      <div class="eyebrow">Email shortcut · Setup</div>
+      <h1>Autorizuješ si <em>vlastného</em> Clauda.</h1>
+      <p class="punchline">Nie cudzia služba. <b>Vlastná Google Cloud OAuth aplikácia</b>, vlastný token, drafty do vlastného inboxu. <em>Send klikáš stále ty.</em></p>
+
+      <div class="flow">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Vlastná OAuth app.</h3>
+          <p>Google Cloud projekt, enable Gmail API, <code>OAuth Desktop</code> credentials. Vlastníš to ty, prístup odvoláš jedným klikom v Google účte.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Draft only.</h3>
+          <p>Scopes bez <code>gmail.send</code>. Claude volá <code>drafts().create</code>, nikdy <code>send()</code>. V kóde guard <code>allow_send=False</code>. Žiadny auto-send.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Token v Keychain.</h3>
+          <p>Secret v macOS Keychain, mimo iCloud. Audit log každej akcie. Kill switch v Google účte za 5 sekúnd.</p>
+        </div>
+      </div>
+
+      <div class="safety">
+        <b>Postav si to sám.</b> Celý návod krok po kroku aj pamäťové pravidlo na skopírovanie do tvojho <code>CLAUDE.md</code> je v <a href="https://github.com/DXFNT/claude-runs-my-life/blob/main/guides/email-draft-setup.md" target="_blank" rel="noopener">návode na stiahnutie</a>. Verejný, bez osobných dát.
+      </div>
+
+      <footer>
+        <span>Claude runs my life · Slide 02</span>
+        <a class="src" href="https://github.com/DXFNT/claude-runs-my-life/blob/main/guides/email-draft-setup.md" target="_blank" rel="noopener">Návod na stiahnutie ↗</a>
         <span class="tag">GO BEYOND</span>
       </footer>
     </section>
@@ -1234,6 +1285,15 @@
   const totEl=document.getElementById('tot');
   const curEl=document.getElementById('cur');
   totEl.textContent=total;
+
+  // Auto-number content slides by DOM position (cover = index 0, skipped).
+  // Lets us insert/reorder slides without manually renumbering footers/headers.
+  slides.forEach((s,i)=>{
+    if(i===0) return;
+    const n=String(i).padStart(2,'0');
+    const mb=s.querySelector('.meta b'); if(mb) mb.textContent=n;
+    const fs=s.querySelector('footer span'); if(fs) fs.textContent='Claude runs my life · Slide '+n;
+  });
 
   function go(idx){
     if(idx<0)idx=0;if(idx>total-1)idx=total-1;

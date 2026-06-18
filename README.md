@@ -30,6 +30,8 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 9 | Public repo s vašimi emailmi je trojkrokový problém. GitHub security |
 | 10 | Keď audit povie pauznúť, my sa pýtame prečo. DexIQ #27 root cause |
 | 11 | Sekrety bez pomlčiek. Bootstrap secrets pipeline za 41 sek |
+| 31 | Claude počúva tvoje porady. NotebookLM nahrávka → obohatí dokument |
+| 32 | Príprava na budget call za pár minút. Ponuka vs timetrack + stratégia z nahrávky |
 
 ## Pridanie nového slidu
 

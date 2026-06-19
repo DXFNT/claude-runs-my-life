@@ -32,6 +32,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 11 | Sekrety bez pomlčiek. Bootstrap secrets pipeline za 41 sek |
 | 31 | Claude počúva tvoje porady. NotebookLM nahrávka → obohatí dokument |
 | 32 | Príprava na budget call za pár minút. Ponuka vs timetrack + stratégia z nahrávky |
+| 33 | Druhá firma, druhý tajomník. Samostatný OAuth bot pre ďalší účet za pár minút |
 
 ## Pridanie nového slidu
 

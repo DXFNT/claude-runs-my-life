@@ -33,6 +33,8 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 31 | Claude počúva tvoje porady. NotebookLM nahrávka → obohatí dokument |
 | 32 | Príprava na budget call za pár minút. Ponuka vs timetrack + stratégia z nahrávky |
 | 33 | Druhá firma, druhý tajomník. Samostatný OAuth bot pre ďalší účet za pár minút |
+| 34 | Návod: postav si vlastného bota (1/2). Príprava na strane Googlu |
+| 35 | Návod: postav si vlastného bota (2/2). Prepojenie s Macom a bezpečnosť |
 
 ## Pridanie nového slidu
 

@@ -35,6 +35,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 33 | Druhá firma, druhý tajomník. Samostatný OAuth bot pre ďalší účet za pár minút |
 | 34 | Návod: postav si vlastného bota (1/2). Príprava na strane Googlu |
 | 35 | Návod: postav si vlastného bota (2/2). Prepojenie s Macom a bezpečnosť |
+| 36 | NotebookLM priamo z kódu. Jeden priečinok → sync skript → pýtaš sa z kódu (setup k #31) |
 
 ## Pridanie nového slidu
 

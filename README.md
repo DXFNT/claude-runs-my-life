@@ -36,6 +36,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 34 | Návod: postav si vlastného bota (1/2). Príprava na strane Googlu |
 | 35 | Návod: postav si vlastného bota (2/2). Prepojenie s Macom a bezpečnosť |
 | 36 | NotebookLM priamo z kódu. Jeden priečinok → sync skript → pýtaš sa z kódu (setup k #31) |
+| 37 | Z nahrávky rovno tasky v Basecampe. NotebookLM × Basecamp combo, action items → BC todos |
 
 ## Pridanie nového slidu
 

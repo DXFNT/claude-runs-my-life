@@ -58,7 +58,7 @@ NotebookLM CLI **audio nahrať nevie**, audio sa do notebooku dá pridať len ce
 
 **Cesta A. NotebookLM si audio prepíše sám.** Nahrávku nahráš cez web (notebooklm.google.com → Add source → upload). NotebookLM ju interne prepíše a obsah je hneď queryovateľný z kódu cez `notebooklm ask`. Žiadny Whisper netreba. Jediný háčik je ten jeden manuálny upload.
 
-**Cesta B. Whisper a ostávaš v kóde.** Nahrávku prepíšeš lokálne cez Whisper, prepis ako `.txt` alebo `.md` hodíš do `notebooklm-sources/` a sync ho nahrá automaticky. Žiadny web. Bonus: máš surový prepis ako súbor, vieš ho grepovať aj dať Claudovi priamo.
+**Cesta B. Whisper a do webu vôbec nemusíš.** Nahrávku prepíšeš lokálne cez Whisper, prepis ako `.txt` alebo `.md` hodíš do `notebooklm-sources/` a sync ho nahrá automaticky. Žiadny web. Bonus: máš surový prepis ako súbor, vieš ho grepovať aj dať Claudovi priamo.
 
 Prompt na Whisper cestu pre tvoj Claude Code:
 

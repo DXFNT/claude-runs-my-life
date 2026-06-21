@@ -37,6 +37,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 35 | Návod: postav si vlastného bota (2/2). Prepojenie s Macom a bezpečnosť |
 | 36 | NotebookLM priamo z kódu. Jeden priečinok → sync skript → pýtaš sa z kódu (setup k #31) |
 | 37 | Z nahrávky rovno tasky v Basecampe. NotebookLM × Basecamp combo, action items → BC todos |
+| 38 | Skills Starter Kit. 60+ skillov + 3 memory packy na jeden install, DXFNT/claude-skills |
 
 ## Pridanie nového slidu
 

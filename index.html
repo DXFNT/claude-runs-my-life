@@ -1790,7 +1790,7 @@
   const total=slides.length;
   const totEl=document.getElementById('tot');
   const curEl=document.getElementById('cur');
-  totEl.textContent=total;
+  totEl.textContent=total-1;
 
   // Auto-number content slides by DOM position (cover = index 0, skipped).
   // Lets us insert/reorder slides without manually renumbering footers/headers.
@@ -1804,7 +1804,7 @@
   function go(idx){
     if(idx<0)idx=0;if(idx>total-1)idx=total-1;
     slides.forEach((s,i)=>s.classList.toggle('active',i===idx));
-    curEl.textContent=idx+1;
+    curEl.textContent=idx===0?'Cover':idx;
     if(history.replaceState){history.replaceState(null,'','#'+idx);}
   }
 

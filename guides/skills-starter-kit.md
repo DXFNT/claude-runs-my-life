@@ -6,14 +6,14 @@ Cieľ: tvoj Claude Code je za pár minút nabitý všetkým čo v Dexfinity pou�
 skillov a 3 memory packy. Audity, Google Ads, SEO, social, sales playbook, CEO rozsekni,
 Lovable setup, práca s hubom a tímom.
 
-> Toto je verejný návod. Skilly žijú v privátnom internom repe (treba DXFNT prístup).
+> Toto je verejný návod. Skilly žijú v privátnom internom repe (treba DexfinityHUB prístup).
 > Memory packy sú verejné a čisté. Žiadne emaily, faktúry, sumy ani klientske dáta.
 
 ---
 
 ## Workshop zadanie (toto si spravte)
 
-1. Nainštaluj si skilly z `DXFNT/claude-skills`.
+1. Nainštaluj si skilly z `DexfinityHUB/claude-skills`.
 2. Nainštaluj si 3 memory packy.
 3. Over že to funguje. V novom chate napíš *„Aké skilly mám k dispozícii?"*.
 4. Skús jeden naživo. Napríklad *„sprav audit jednej stránky"* alebo *„daj mi pripomienku zajtra o 10"*.
@@ -26,7 +26,7 @@ Hotové za 10 minút. Kto má problém s prístupom, krok 1 nižšie to rieši.
 
 1. **Claude Code nainštalovaný.** Ak ešte nemáš, [návod tu](https://docs.claude.com/claude-code).
    Rýchlo: `npm install -g @anthropic-ai/claude-code`.
-2. **GitHub účet + DXFNT prístup.** Bez toho `git clone` privátneho repa zlyhá (404).
+2. **GitHub účet + DexfinityHUB prístup.** Bez toho `git clone` privátneho repa zlyhá (404).
    Rieši krok 1.
 
 ---
@@ -38,7 +38,7 @@ Hotové za 10 minút. Kto má problém s prístupom, krok 1 nižšie to rieši.
    organizácie a do tímu, ktorý má prístup k skillom.
 3. Keď ti príde pozvánka do organizácie, **klikni Accept**. Až potom `git clone` prejde.
 
-> Test či máš prístup: otvor [github.com/DXFNT/claude-skills](https://github.com/DXFNT/claude-skills).
+> Test či máš prístup: otvor [github.com/DexfinityHUB/claude-skills](https://github.com/DexfinityHUB/claude-skills).
 > Ak vidíš repo, si dnu. Ak vidíš 404, ešte nie si pridaný, ozvi sa Palimu.
 
 ---
@@ -49,7 +49,7 @@ Jeden príkaz. Naklonuje repo a spustí inštalačný skript, ktorý skilly nako
 `~/.claude/skills/`.
 
 ```bash
-git clone https://github.com/DXFNT/claude-skills.git
+git clone https://github.com/DexfinityHUB/claude-skills.git
 cd claude-skills
 ./install.sh
 cd ..
@@ -105,8 +105,8 @@ Funguje? Hotovo. Si nabitý rovnakým arzenálom ako zvyšok tímu.
 
 ## Checklist
 
-- [ ] Mám GitHub účet a prijatú pozvánku do DXFNT
-- [ ] `github.com/DXFNT/claude-skills` mi nezobrazuje 404
+- [ ] Mám GitHub účet a prijatú pozvánku do DexfinityHUB
+- [ ] `github.com/DexfinityHUB/claude-skills` mi nezobrazuje 404
 - [ ] `./install.sh` dobehol, skilly sú v `~/.claude/skills/`
 - [ ] Memory packy sú v `~/.claude/memory/`
 - [ ] V novom session Claude vymenuje skilly a jeden naživo zafungoval

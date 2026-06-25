@@ -38,7 +38,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 36 | NotebookLM priamo z kódu. Jeden priečinok → sync skript → pýtaš sa z kódu (setup k #31) |
 | 37 | Z nahrávky rovno tasky v Basecampe. NotebookLM × Basecamp combo, action items → BC todos |
 | 38 | Skills Starter Kit. 60+ skillov + 3 memory packy na jeden install, DXFNT/claude-skills |
-| 39 | Z Drive priečinka prezentácia. Fotky → brandovaný klikateľný deck + notifikácia (BC task / WhatsApp) |
+| 39 | Z Drivu po schválenie klientom. Fotky → interaktívny deck, klient sám odklikne + notifikácia (BC / WhatsApp) |
 
 ## Pridanie nového slidu
 

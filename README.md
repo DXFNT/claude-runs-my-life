@@ -39,6 +39,8 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 37 | Z nahrávky rovno tasky v Basecampe. NotebookLM × Basecamp combo, action items → BC todos |
 | 38 | Skills Starter Kit. 60+ skillov + 3 memory packy na jeden install, DXFNT/claude-skills |
 | 39 | Z Drivu po schválenie klientom. Fotky → interaktívny deck, klient sám odklikne + notifikácia (BC / WhatsApp) |
+| 40 | Redirect gap zachytený. Shopify API + GSC DWD odhalili chýbajúcu vzdelávaciu vrstvu, 142 CSV riadkov pred cutoverom (vino.sk) |
+| 41 | Inzerát prepísaný z chatu. WordPress cez API, záloha → prepis → cache purge, web nespadol (dexfinity.com kariéra) |
 
 ## Pridanie nového slidu
 

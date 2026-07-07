@@ -42,6 +42,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 40 | Redirect gap zachytený. Shopify API + GSC DWD odhalili chýbajúcu vzdelávaciu vrstvu, 142 CSV riadkov pred cutoverom (vino.sk) |
 | 41 | Inzerát prepísaný z chatu. WordPress cez API, záloha → prepis → cache purge, web nespadol (dexfinity.com kariéra) |
 | 42 | Z rozbitej zmluvy podpis-ready dokument. Reformát na brand štandard, právne porovnanie so vzorom, doplnené ochranné ustanovenia, footer opravený v šablóne |
+| 43 | Kde web padá na hubu. 404 audit po migrácii e-shopu cez firemné Google napojenie, HTTP overenie každej adresy, verdikt a task za pár minút |
 
 ## Pridanie nového slidu
 

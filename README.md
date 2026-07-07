@@ -43,6 +43,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 41 | Inzerát prepísaný z chatu. WordPress cez API, záloha → prepis → cache purge, web nespadol (dexfinity.com kariéra) |
 | 42 | Z rozbitej zmluvy podpis-ready dokument. Reformát na brand štandard, právne porovnanie so vzorom, doplnené ochranné ustanovenia, footer opravený v šablóne |
 | 43 | Kde web padá na hubu. 404 audit po migrácii e-shopu cez firemné Google napojenie, HTTP overenie každej adresy, verdikt a task za pár minút |
+| 44 | Prierez projektu za 5 minút. Skill project-map zladí objednávku z Drive, tasky z Basecampu a dokumenty na jednu os, nájde objednané služby bez taskov |
 
 ## Pridanie nového slidu
 

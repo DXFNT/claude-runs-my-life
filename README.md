@@ -46,6 +46,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 44 | Prierez projektu za 5 minút. Skill project-map zladí objednávku z Drive, tasky z Basecampu a dokumenty na jednu os, nájde objednané služby bez taskov |
 | 45 | Prečo lacnie remarketing? Stopa viedla do Googlu. Meta leady za 1,4 € prepojené cez tri platformy, zdroj je podcast kampaň na Googli čo plní pool |
 | 46 | Karta #multisport a je vybavené. Mesačný benefit pre celý tím zbalený do jedného triggera v kalendári, náhľad na odsúhlasenie, zvyšok dobehne rutina |
+| 47 | Jeden dokument, celý projekt. Klientsky projekt má v Basecampe interný index s linkami na Drive, prezentácie, výstupy aj notebook. Jedno miesto pravdy |
 
 ## Pridanie nového slidu
 

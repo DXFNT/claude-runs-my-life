@@ -47,6 +47,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 45 | Prečo lacnie remarketing? Stopa viedla do Googlu. Meta leady za 1,4 € prepojené cez tri platformy, zdroj je podcast kampaň na Googli čo plní pool |
 | 46 | Karta #multisport a je vybavené. Mesačný benefit pre celý tím zbalený do jedného triggera v kalendári, náhľad na odsúhlasenie, zvyšok dobehne rutina |
 | 47 | Jeden dokument, celý projekt. Klientsky projekt má v Basecampe interný index s linkami na Drive, prezentácie, výstupy aj notebook. Jedno miesto pravdy |
+| 48 | Plaud po slovensky, ako sa patrí. Addon je len mikrofón, mozog je nastavenie účtu. Jazyk na Slovak, vlastná šablóna a AI inštrukcie, vypnúť zdieľanie dát |
 
 ## Pridanie nového slidu
 

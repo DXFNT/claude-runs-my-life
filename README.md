@@ -49,6 +49,8 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 47 | Jeden dokument, celý projekt. Klientsky projekt má v Basecampe interný index s linkami na Drive, prezentácie, výstupy aj notebook. Jedno miesto pravdy |
 | 48 | Plaud po slovensky, ako sa patrí. Addon je len mikrofón, mozog je nastavenie účtu. Jazyk na Slovak, vlastná šablóna a AI inštrukcie, vypnúť zdieľanie dát |
 | 49 | Slovník teraz hovorí aj po česky. 49 chýbajúcich Dexguide hesiel doplnených cez WPML + DeepL za popoludnie, celý glosár 112/112 dvojjazyčný. Nájdi gap, nechaj preložiť, publikuj a over |
+| 50 | Koľko klient minul na reklame? Za dve minúty. GA4, Google Ads aj Meta naraz, vrátane nájdenia zdieľaných Meta účtov. Rozpad po kampaniach s návratnosťou, bez otvárania dashboardu |
+| 51 | Tisíc návštev denne, nula dopytov. Podcast kampaň hnala traffic na archív bez CTA. Slim bannery medzi epizódy a upratané SEO kategórie. Obsah prvý, dopyt na dosah, každé CTA merané |
 
 ## Pridanie nového slidu
 

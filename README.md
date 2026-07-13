@@ -52,6 +52,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 50 | Koľko klient minul na reklame? Za dve minúty. GA4, Google Ads aj Meta naraz, vrátane nájdenia zdieľaných Meta účtov. Rozpad po kampaniach s návratnosťou, bez otvárania dashboardu |
 | 51 | Tisíc návštev denne, nula dopytov. Podcast kampaň hnala traffic na archív bez CTA. Slim bannery medzi epizódy a upratané SEO kategórie. Obsah prvý, dopyt na dosah, každé CTA merané |
 | 52 | Tab existuje ≠ tab má dáta. Audit report linkuje na presné záložky Sheetu, každá záložka vysvetľuje prečo a za koľko, žargón so slovníčkom. Klik odhalil 2 prázdne taby, odteraz každý zápis končí verifikáciou |
+| 53 | Kde je to malé číslo? SEO potenciál sa nepočíta z palca. Hodnota návštevy = tržba na session z analytiky klienta + cena kliku z jeho reklamy. Recovery (oprava dlhu) a rast (nový dopyt) sú dve rôzne čísla, nemiešať |
 
 ## Pridanie nového slidu
 

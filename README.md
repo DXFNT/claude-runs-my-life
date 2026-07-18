@@ -55,6 +55,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 53 | Kde je to malé číslo? SEO potenciál sa nepočíta z palca. Hodnota návštevy = tržba na session z analytiky klienta + cena kliku z jeho reklamy. Recovery (oprava dlhu) a rast (nový dopyt) sú dve rôzne čísla, nemiešať |
 | 54 | Audit, ktorému rozumie aj klient. Technický SEO audit dostal vrstvu Po lopate: vysvetlenie ľudskou rečou pri každej úlohe aj tabe, klikateľné odkazy z úloh na dôkazy, farebné taby ako rozcestník |
 | 55 | 1,9 milióna návštevníkov, ktorí neexistujú. Plný technický audit e-shopu a forenzika GSC impresií: rozpad na krajinu, zariadenie a mesiac odhalil armádu meracích botov, klient dostal očistené poctivé čísla |
+| 56 | Obuvníkove deti dostali topánky. Interný SEO audit dexfinity.com v klientskom štandarde, krížom cez Search Console, Analytics a Google Ads, a exekúcia nálezov priamo vo WordPresse v ten istý deň |
 
 ## Pridanie nového slidu
 

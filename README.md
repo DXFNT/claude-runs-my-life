@@ -58,6 +58,9 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 56 | Obuvníkove deti dostali topánky. Interný SEO audit dexfinity.com v klientskom štandarde, krížom cez Search Console, Analytics a Google Ads, a exekúcia nálezov priamo vo WordPresse v ten istý deň |
 | 57 | Shopify | Kalkulačka, ktorá predáva | Shopify kalkulačka prerobená na interaktívneho sprievodcu s cenou, nákladmi, referenciami a cheatsheet odmenou |
 | 58 | Prezentácie | Z reportov partnera spoločná prezka | Z 19 reportov Luigi's Boxu Claude postavil brandovú Google Slides prezku na webinar, s embednutým showreelom a opravenou metrikou |
+| 59 | Brand systém | Dizajn, ktorý sa sám zlepšuje | Jeden zdroj pravdy pre farby a fonty, z ktorého sa generujú všetky výstupy |
+| 60 | WordPress | Jeden formulár, jeden štandard | Vzhľad formulárov definovaný raz, nový formulár stačí označiť triedou |
+| 61 | Diagnostika | Reklama viedla na YouTube, konverzie sme merali na webe | Kampaň minula 23 centov z piatich eur. Z hľadania príčiny vznikol sedemvrstvový rebrík na zaseknuté kampane |
 
 ## Pridanie nového slidu
 

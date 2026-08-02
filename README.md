@@ -62,6 +62,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 60 | WordPress | Jeden formulár, jeden štandard | Vzhľad formulárov definovaný raz, nový formulár stačí označiť triedou |
 | 61 | Diagnostika | Reklama viedla na YouTube, konverzie sme merali na webe | Kampaň minula 23 centov z piatich eur. Z hľadania príčiny vznikol sedemvrstvový rebrík na zaseknuté kampane |
 | 62 | Basecamp | Hodíš link na task a vráti sa hotová robota | Jeden odkaz na Basecamp. Claude prečítal 16 komentárov, opravil 583 vecí v slovníku a odpísal kolegyni. Odpoveď v cudzom mene čaká na ok |
+| 63 | Audit | Napísali sme audit o výťahoch firme, ktorá predáva čiapky | Fulltextové hľadanie v reklamnej knižnici vrátilo firmu s podobným menom. Meno inzerenta sa do zadania nedostalo, tak si model odbor domyslel z cudzích reklám |
 
 ## Pridanie nového slidu
 

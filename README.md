@@ -64,6 +64,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 62 | Basecamp | Hodíš link na task a vráti sa hotová robota | Jeden odkaz na Basecamp. Claude prečítal 16 komentárov, opravil 583 vecí v slovníku a odpísal kolegyni. Odpoveď v cudzom mene čaká na ok |
 | 63 | Audit | Napísali sme audit o výťahoch firme, ktorá predáva čiapky | Fulltextové hľadanie v reklamnej knižnici vrátilo firmu s podobným menom. Meno inzerenta sa do zadania nedostalo, tak si model odbor domyslel z cudzích reklám |
 | 64 | Fakturácia | Klient napísal „dajme ten stredný balík". Zvyšok je automat | Z jednej WhatsApp správy vznikla faktúra. IČO a DIČ z verejných registrov, vystavenie v Doklade, email s PDF v draftoch, čas v Togglu. Odoslanie ostáva na človeku |
+| 65 | Kontrola | Štyri faktúry a jedna diera v dokumente | Hotový dokument pre klienta prešiel kontrolou proti pamäti projektu a faktúram v TaskMane. Našla sa faktúra po splatnosti vydávaná za uhradenú aj rámovanie, ktoré by darovalo argument na zľavu. Feedback odišiel jedným emailom |
 
 ## Pridanie nového slidu
 

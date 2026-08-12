@@ -65,6 +65,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 63 | Audit | Napísali sme audit o výťahoch firme, ktorá predáva čiapky | Fulltextové hľadanie v reklamnej knižnici vrátilo firmu s podobným menom. Meno inzerenta sa do zadania nedostalo, tak si model odbor domyslel z cudzích reklám |
 | 64 | Fakturácia | Klient napísal „dajme ten stredný balík". Zvyšok je automat | Z jednej WhatsApp správy vznikla faktúra. IČO a DIČ z verejných registrov, vystavenie v Doklade, email s PDF v draftoch, čas v Togglu. Odoslanie ostáva na človeku |
 | 65 | Kontrola | Štyri faktúry a jedna diera v dokumente | Hotový dokument pre klienta prešiel kontrolou proti pamäti projektu a faktúram v TaskMane. Našla sa faktúra po splatnosti vydávaná za uhradenú aj rámovanie, ktoré by darovalo argument na zľavu. Feedback odišiel jedným emailom |
+| 66 | Ponuka | Kampaň nám povedala, že naša vlastná ponuka klame | Predávali sme 40 000 zhliadnutí za 200 €, prvá ostrá kampaň ukázala 16 600. Case study bola z iného formátu kampane. Prepísali sme odhady v ponuke aj na službovej stránke namiesto naťahovania čísel v reporte |
 
 ## Pridanie nového slidu
 

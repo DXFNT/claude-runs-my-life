@@ -67,6 +67,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 65 | Kontrola | Štyri faktúry a jedna diera v dokumente | Hotový dokument pre klienta prešiel kontrolou proti pamäti projektu a faktúram v TaskMane. Našla sa faktúra po splatnosti vydávaná za uhradenú aj rámovanie, ktoré by darovalo argument na zľavu. Feedback odišiel jedným emailom |
 | 66 | Ponuka | Kampaň nám povedala, že naša vlastná ponuka klame | Predávali sme 40 000 zhliadnutí za 200 €, prvá ostrá kampaň ukázala 16 600. Case study bola z iného formátu kampane. Prepísali sme odhady v ponuke aj na službovej stránke namiesto naťahovania čísel v reporte |
 | 67 | Antispam | Guard, ktorý blokoval, ale nezastavil | Ochrana formulárov vracala botovi chybu a zapisovala si bloky do logu, no notifikácia na sales@ aj ebook mu odišli. Prezradilo to počítadlo, ktoré hlásilo tri vyplnenia pri jednom reálnom. Chybová hláška nie je dôkaz, že sa nič nestalo |
+| 68 | Projektový systém | Hodiny áno, cenu nie | Z callu spravíme zápis, hodiny a úlohy. Vývojári logujú svoj čas bez sadzieb a cien, konečnú cenu na klienta doskladáme až my na konci mesiaca. Subdodávateľ maržu nevidí |
 
 ## Pridanie nového slidu
 

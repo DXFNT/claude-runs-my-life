@@ -70,6 +70,7 @@ https://dxfnt.github.io/claude-runs-my-life/
 | 68 | Projektový systém | Hodiny áno, cenu nie | Z callu spravíme zápis, hodiny a úlohy. Vývojári logujú svoj čas bez sadzieb a cien, konečnú cenu na klienta doskladáme až my na konci mesiaca. Subdodávateľ maržu nevidí |
 | 69 | Delegovanie | Ľudí dávame len tam, kde je AI krátka | SEO predpis 148 stránok: stroj generuje, junior kontroluje očami, skript stráži nasadenie (11 zo 14 kontrol automaticky). Každý ľudský nález ide do learning logu a zlepší ďalšie kolo |
 | 70 | /migrate-session | Sťahovanie bez krabíc | Prechod na novú licenciu: pamäť je spoločná, staré chaty sa dočítajú. Digest priečinka, over nehádaj, zapíš len rozdiel. Git snapshot stráži prepisy, ledger duplikáty |
+| 71 | Sebakontrola | Rozporuj sám seba, kým to nikto nevidí | Zadanie novému kolegovi obsahovalo prácu hotovú pred dvoma dňami. Pred každým zadaním sa načíta rozdiel z Basecampu a z pamäti. Zapísať nestačí, treba to aj čítať |
 
 ## Pridanie nového slidu
 

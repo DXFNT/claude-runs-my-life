@@ -89,3 +89,4 @@ Fonty Questrial (headings) + Poppins (body).
 ## Licencia
 
 Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable.
+| 73 | GEO | 81 % firiem nemá llms.txt | reverse engineering SEOptimeru + 27 meraní trhu |

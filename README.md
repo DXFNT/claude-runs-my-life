@@ -92,3 +92,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 73 | GEO | 81 % firiem nemá llms.txt | reverse engineering SEOptimeru + 27 meraní trhu |
 | 74 | Jeden hlasový brief, celé ráno práce | Jarvis event koordinácia |
 | 75 | Claude si pozrel päť podcastov namiesto teba | príprava na hosťa z jeho verejných vystúpení |
+| 76 | Tri dvere zabuchnuté, štvrté som si postavil | vlastný klient do TaskManu, keď zlyhali všetky cesty cez prehliadač |

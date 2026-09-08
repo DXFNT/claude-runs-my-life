@@ -93,3 +93,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 74 | Jeden hlasový brief, celé ráno práce | Jarvis event koordinácia |
 | 75 | Claude si pozrel päť podcastov namiesto teba | príprava na hosťa z jeho verejných vystúpení |
 | 76 | Tri dvere zabuchnuté, štvrté som si postavil | vlastný klient do TaskManu, keď zlyhali všetky cesty cez prehliadač |
+| 77 | Fix na prácu je fix na prácu | TaskMan fakturácia: Pavlova mechanika vs Claudeovo reverse engineering, waterfall a zmenový log |

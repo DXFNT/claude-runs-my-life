@@ -95,3 +95,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 76 | Tri dvere zabuchnuté, štvrté som si postavil | vlastný klient do TaskManu, keď zlyhali všetky cesty cez prehliadač |
 | 77 | Fix na prácu je fix na prácu | TaskMan fakturácia: Pavlova mechanika vs Claudeovo reverse engineering, waterfall a zmenový log |
 | 78 | Kto to vlastne čítal? | Basecamp: message board post mal 0 reakcií, ten istý obsah pod taskom 3 do hodiny |
+| 79 | Kolegovo know-how na jeden fetch | Claude org projekty: čítanie Ondrejových projektov cez docs API, diff proti pamäti, náš runbook späť do jeho projektu |

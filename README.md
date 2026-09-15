@@ -96,3 +96,5 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 77 | Fix na prácu je fix na prácu | TaskMan fakturácia: Pavlova mechanika vs Claudeovo reverse engineering, waterfall a zmenový log |
 | 78 | Kto to vlastne čítal? | Basecamp: message board post mal 0 reakcií, ten istý obsah pod taskom 3 do hodiny |
 | 79 | Kolegovo know-how na jeden fetch | Claude org projekty: čítanie Ondrejových projektov cez docs API, diff proti pamäti, náš runbook späť do jeho projektu |
+| 80 | Hack za jeden deň, admina sme nevolali | dexfinity.com cloaking: strážny proces v pamäti vracal spam, zabitý, server skontrolovaný cez rescue, denný monitoring |
+| 81 | `Dangerous site`, a nič sme nepokazili | Chrome flagol klientsky prototyp na pages.dev ako phishing, web čistý, presun pod hub.dexfinity.com proxy |

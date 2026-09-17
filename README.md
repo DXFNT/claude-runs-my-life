@@ -98,3 +98,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 79 | Kolegovo know-how na jeden fetch | Claude org projekty: čítanie Ondrejových projektov cez docs API, diff proti pamäti, náš runbook späť do jeho projektu |
 | 80 | Hack za jeden deň, admina sme nevolali | dexfinity.com cloaking: strážny proces v pamäti vracal spam, zabitý, server skontrolovaný cez rescue, denný monitoring |
 | 81 | `Dangerous site`, a nič sme nepokazili | Chrome flagol klientsky prototyp na pages.dev ako phishing, web čistý, presun pod hub.dexfinity.com proxy |
+| 82 | 456 mien firiem večer, 277 hotových auditov ráno | Upterdam: zoznam účastníkov × Caflou, batch GEO auditov cez motor appky, statický archív na vlastnej doméne, TV s priemerom 51/100 |

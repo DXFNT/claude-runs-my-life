@@ -99,3 +99,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 80 | Hack za jeden deň, admina sme nevolali | dexfinity.com cloaking: strážny proces v pamäti vracal spam, zabitý, server skontrolovaný cez rescue, denný monitoring |
 | 81 | `Dangerous site`, a nič sme nepokazili | Chrome flagol klientsky prototyp na pages.dev ako phishing, web čistý, presun pod hub.dexfinity.com proxy |
 | 82 | 456 mien firiem večer, 277 hotových auditov ráno | Upterdam: zoznam účastníkov × Caflou, batch GEO auditov cez motor appky, statický archív na vlastnej doméne, TV s priemerom 51/100 |
+| 83 | Call skončil o pol desiatej, o jedenástej boli kampane prestavené | Plaud prepis porady o Meta kampaniach: celý prepis namiesto AI zhrnutia, rozpočty a kampane nastavené podľa dohody, follow-up do kalendára |

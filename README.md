@@ -100,3 +100,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 81 | `Dangerous site`, a nič sme nepokazili | Chrome flagol klientsky prototyp na pages.dev ako phishing, web čistý, presun pod hub.dexfinity.com proxy |
 | 82 | 456 mien firiem večer, 277 hotových auditov ráno | Upterdam: zoznam účastníkov × Caflou, batch GEO auditov cez motor appky, statický archív na vlastnej doméne, TV s priemerom 51/100 |
 | 83 | Call skončil o pol desiatej, o jedenástej boli kampane prestavené | Plaud prepis porady o Meta kampaniach: celý prepis namiesto AI zhrnutia, rozpočty a kampane nastavené podľa dohody, follow-up do kalendára |
+| 84 | Pamäť, ktorú sme platili pri každom volaní | Headless automaty si ťahali pamäťový index projektu podľa priečinka: jeden prepínač a réžia volania zo 16 612 na 234 tokenov |

@@ -104,3 +104,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 85 | Diktafón, ktorý si pamätá | 145 Voice Memos lokálne prepísaných whisperom, katalóg tém a úloh, hľadanie cez Clauda a nezdieľaný NotebookLM archív |
 | 86 | Darček s cenovkou | Partner podcast promo zadarmo, report z Google Ads s hodnotou spomenutou raz, web verzia na hube |
 | 87 | Plánik, ktorý hovorí | Kalkulačka pre klienta po 96 pripomienkach: škrtanie textov, konkrétne pomenovania, vizuálna väzba zoznamu na plánik, 28 pravidiel do skillu |
+| 88 | Mac v taške, Claude v práci | Skratka claudeawake: Mac nezaspí so zaklapnutým vekom, kým pracujú Claude sessions, po 10 min kľudu sa uspí sám |

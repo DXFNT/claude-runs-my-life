@@ -4092,7 +4092,7 @@
   // Lets us insert/reorder slides without manually renumbering footers/headers.
   slides.forEach((s,i)=>{
     if(i===0) return;
-    const n=String(i).padStart(2,'0');
+    const id=s.dataset.id||String(i); const n=/^\d$/.test(id)?'0'+id:id;
     const mb=s.querySelector('.meta b'); if(mb) mb.textContent=n;
     const fs=s.querySelector('footer span'); if(fs) fs.textContent='Claude runs my life · Slide '+n;
   });
@@ -4100,8 +4100,9 @@
   function go(idx){
     if(idx<0)idx=0;if(idx>total-1)idx=total-1;
     slides.forEach((s,i)=>s.classList.toggle('active',i===idx));
-    curEl.textContent=idx===0?'Cover':idx;
-    if(history.replaceState){history.replaceState(null,'','#'+idx);}
+    const sid=slides[idx].dataset.id||String(idx);
+    curEl.textContent=idx===0?'Cover':sid;
+    if(history.replaceState){history.replaceState(null,'','#'+sid);}
   }
 
   function current(){
@@ -4138,8 +4139,10 @@
   fit();
 
   // Initial slide from hash or 0
-  const initial=parseInt(location.hash.replace('#',''))||0;
-  go(initial);
+  // Hash = data-id slidu (napr. #92, #1b), nie poradie v decku
+  const h=decodeURIComponent(location.hash.replace('#',''));
+  const byId=slides.findIndex(s=>s.dataset.id===h);
+  go(byId>=0?byId:(parseInt(h)||0));
 })();
 </script>
 </body>

@@ -106,3 +106,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 87 | Plánik, ktorý hovorí | Kalkulačka pre klienta po 96 pripomienkach: škrtanie textov, konkrétne pomenovania, vizuálna väzba zoznamu na plánik, 28 pravidiel do skillu |
 | 88 | Mac v taške, Claude v práci | Skratka claudeawake: Mac nezaspí so zaklapnutým vekom, kým pracujú Claude sessions, po 10 min kľudu sa uspí sám |
 | 89 | Elektráreň, ktorá predáva elektrocentrály | Zlé preklady title kategórií po migrácii e-shopu, oprava cez API so zálohou, read-backom a kontrolou živej stránky |
+| 90 | Šuplík, do ktorého sa nikto nepozerá | API potvrdí zápis, web ho nepoužije: test jedného kusu z každého typu stránky pred hromadným zápisom meta textov |

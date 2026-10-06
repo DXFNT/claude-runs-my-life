@@ -108,3 +108,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 89 | Elektráreň, ktorá predáva elektrocentrály | Zlé preklady title kategórií po migrácii e-shopu, oprava cez API so zálohou, read-backom a kontrolou živej stránky |
 | 90 | Šuplík, do ktorého sa nikto nepozerá | API potvrdí zápis, web ho nepoužije: test jedného kusu z každého typu stránky pred hromadným zápisom meta textov |
 | 91 | Kto nám robí v účtoch? | Prierez MCC: kto iný ladí kampane na účtoch, kde máme prístup; objem rátať zo spendu, nie z počtu zmien |
+| 92 | Referencie z dát, nie z hlavy | Referencie podľa segmentu z reklamných účtov za 3 roky, mená klientov áno, pred odoslaním kontrola konfliktu záujmov |

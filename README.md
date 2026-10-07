@@ -111,3 +111,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 92 | Referencie z dát, nie z hlavy | Referencie podľa segmentu z reklamných účtov za 3 roky, mená klientov áno, pred odoslaním kontrola konfliktu záujmov |
 | 93 | Klientka škrtá, my do večera nasadíme | Klientske screenshoty → revízna stránka s očíslovanými bodmi → hlasovka → nová verzia prototypu v ten istý deň, 9 testov pred odoslaním |
 | 94 | Test na 2 151 stránkach, nie na jednej | SEO A/B test titulkov na skupinách stránok: tri rovnako silné skupiny, zápis a overenie každého titulku, vyhodnotenie o 8 týždňov |
+| 95 | Natoč to raz a Claude to vie | Loom bez zvuku → snímky každých 5 s → postup do runbooku a skillu, overenie na živých číslach |

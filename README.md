@@ -113,3 +113,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 94 | Test na 2 151 stránkach, nie na jednej | SEO A/B test titulkov na skupinách stránok: tri rovnako silné skupiny, zápis a overenie každého titulku, vyhodnotenie o 8 týždňov |
 | 95 | Natoč to raz a Claude to vie | Loom bez zvuku → snímky každých 5 s → postup do runbooku a skillu, overenie na živých číslach |
 | 96 | Neobjednaj všetko, čo ti ponúknu | dodávateľ nacení 3 body → rozbor príčiny vs následku, overenie čo spravíme sami cez API → objednané 2 |
+| 97 | Kto schválil špecifikáciu? | spor o storná vo feede: doslovná časová os z mailov → stavy objednávok z API → prepis callu s dodávateľom, overenie vlastnej stopy pred obhajobou kolegu |

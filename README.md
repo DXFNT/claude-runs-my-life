@@ -114,3 +114,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 95 | Natoč to raz a Claude to vie | Loom bez zvuku → snímky každých 5 s → postup do runbooku a skillu, overenie na živých číslach |
 | 96 | Neobjednaj všetko, čo ti ponúknu | dodávateľ nacení 3 body → rozbor príčiny vs následku, overenie čo spravíme sami cez API → objednané 2 |
 | 97 | Kto schválil špecifikáciu? | spor o storná vo feede: doslovná časová os z mailov → stavy objednávok z API → prepis callu s dodávateľom, overenie vlastnej stopy pred obhajobou kolegu |
+| 98 | Audit očami zákazníka | klientsky audit so snímkami živých stránok (overené v deň vydania), obsah bez zmeny s kontrolou parity, zadanie dodávateľovi ako tabuľka s políčkami Hotové a Overené |

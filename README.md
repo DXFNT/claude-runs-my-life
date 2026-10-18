@@ -117,3 +117,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 98 | Audit očami zákazníka | klientsky audit so snímkami živých stránok (overené v deň vydania), obsah bez zmeny s kontrolou parity, zadanie dodávateľovi ako tabuľka s políčkami Hotové a Overené |
 | 99 | Uzávierka bez PDF | výkaz z timetrackera natiahnutý priamo do taskov namiesto prepisovania PDF, čas na ručné reporty ako signál, kapacita nie je cieľ |
 | 100 | Najprv sa pozri do vlastnej chladničky | mail s požiadavkami klientovi: inventár máme / povedali na calle / chýba z pamäte, prepisu callu, podkladov a access auditu; do mailu len to, čo chýba |
+| 101 | Stránka bez menu je neviditeľná | build novej služby z #rml v samostatnej session až po menu, interné odkazy a report; report si nové stránky nájde sám a stránku mimo menu hlási na prvom mieste |

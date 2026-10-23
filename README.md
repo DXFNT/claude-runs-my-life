@@ -118,3 +118,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 99 | Uzávierka bez PDF | výkaz z timetrackera natiahnutý priamo do taskov namiesto prepisovania PDF, čas na ručné reporty ako signál, kapacita nie je cieľ |
 | 100 | Najprv sa pozri do vlastnej chladničky | mail s požiadavkami klientovi: inventár máme / povedali na calle / chýba z pamäte, prepisu callu, podkladov a access auditu; do mailu len to, čo chýba |
 | 101 | Stránka bez menu je neviditeľná | build novej služby z #rml v samostatnej session až po menu, interné odkazy a report; report si nové stránky nájde sám a stránku mimo menu hlási na prvom mieste |
+| 102 | Majiteľské stretko za štyri dni | majiteľská prezentácia: matica → stavba → brány, prvý slajd odrátava z plánovaného zisku pohľadávky a investy s rozklikom na faktúry, fotky z Photos po kvartáloch, podklady majiteľom mailom cez hub |

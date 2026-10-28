@@ -123,3 +123,5 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 104 | Prečo práve 14 dní? | každá podmienka v zadaní pre dodávateľa (skúšobná dávka, čakacia lehota, dátum prehodnotenia) musí mať dôvod z dát na jednu vetu; kontrolu viazať na udalosť, nie na náhodný dátum; rozhodnutia ukázať pred odoslaním |
 | 105 | Výpoveď mailom, tri mesiace navyše | exit karta pred podpisom dodávateľskej zmluvy, výpoveď presne podľa zmluvnej formy doručenia, neplatenie nie je páka |
 | 106 | Jeden kľúč namiesto stovky pozvánok | centrálne čítanie Search Console a GA4 cez agentúrny účet, vlastný servisný účet len na čítanie, osobný token pre kolegu v Claude, každé čítanie zapísané |
+| 107 | Poisťovňa sa pýta, koľko máš | finančný dotazník ako test registrov: čísla len z podaných dokumentov, hodnota majetku jedným číslom s dátumom a metódou, draft bez placeholderov, odoslanie až na doslovné pošli |
+| 108 | Vypĺňa to vôbec niekto? | prázdna tabuľka vs história verzií: oprávnenia, autori revízií, diff dvoch verzií, jeden mail namiesto pýtania sa |

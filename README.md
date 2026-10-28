@@ -122,3 +122,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 103 | Ponuka, ktorá nesľubuje viac, než dodá | pravdivé číslo z vlastných dát pred odhadmi nástrojov, harmonogram na jednom obrázku (jednorazové, mesačné, zadarmo), férové porovnanie s konkurenciou na rovnakom zdroji a dátume, nesľubovať to, čo ešte nie je postavené |
 | 104 | Prečo práve 14 dní? | každá podmienka v zadaní pre dodávateľa (skúšobná dávka, čakacia lehota, dátum prehodnotenia) musí mať dôvod z dát na jednu vetu; kontrolu viazať na udalosť, nie na náhodný dátum; rozhodnutia ukázať pred odoslaním |
 | 105 | Výpoveď mailom, tri mesiace navyše | exit karta pred podpisom dodávateľskej zmluvy, výpoveď presne podľa zmluvnej formy doručenia, neplatenie nie je páka |
+| 106 | Jeden kľúč namiesto stovky pozvánok | centrálne čítanie Search Console a GA4 cez agentúrny účet, vlastný servisný účet len na čítanie, osobný token pre kolegu v Claude, každé čítanie zapísané |

@@ -128,3 +128,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 109 | Banka nevidí všetko | investícia spoločníka = vklady na účet firmy + platby mimo účtu (pozemok, projekt, dane, notár) z potvrdení platby, jedna tabuľka na osobu, podiely rieši zmluva |
 | 110 | Lopata pre šéfa SEO nefunguje | SEO zdatnému klientovi technická diagnóza namiesto prirovnaní, audit pokrýva celé menu produktov, pokles klikov rozdeliť na prihlásenia a nový dopyt pred záverom |
 | 111 | Build patrí firme, nie notebooku | kód kolegovej appky do súkromného firemného repa, bez kľúčov a s postupom nasadenia, overiť prístupy, secret scan a prihlásenie do adminu |
+| 112 | Kotva z účtovníctva, nie z hlavy | náklady minulej akcie z mesačného účtovného exportu (zálohy, nákupy), kotva na hlavu len interne, dopyty bez rozpočtu, strážnik na odpovede a odovzdanie kolegyni |

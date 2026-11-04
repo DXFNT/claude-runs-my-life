@@ -127,3 +127,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 108 | Vypĺňa to vôbec niekto? | prázdna tabuľka vs história verzií: oprávnenia, autori revízií, diff dvoch verzií, jeden mail namiesto pýtania sa |
 | 109 | Banka nevidí všetko | investícia spoločníka = vklady na účet firmy + platby mimo účtu (pozemok, projekt, dane, notár) z potvrdení platby, jedna tabuľka na osobu, podiely rieši zmluva |
 | 110 | Lopata pre šéfa SEO nefunguje | SEO zdatnému klientovi technická diagnóza namiesto prirovnaní, audit pokrýva celé menu produktov, pokles klikov rozdeliť na prihlásenia a nový dopyt pred záverom |
+| 111 | Build patrí firme, nie notebooku | kód kolegovej appky do súkromného firemného repa, bez kľúčov a s postupom nasadenia, overiť prístupy, secret scan a prihlásenie do adminu |

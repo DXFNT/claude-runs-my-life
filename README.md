@@ -130,3 +130,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 111 | Build patrí firme, nie notebooku | kód kolegovej appky do súkromného firemného repa, bez kľúčov a s postupom nasadenia, overiť prístupy, secret scan a prihlásenie do adminu |
 | 112 | Kotva z účtovníctva, nie z hlavy | náklady minulej akcie z mesačného účtovného exportu (zálohy, nákupy), kotva na hlavu len interne, dopyty bez rozpočtu, strážnik na odpovede a odovzdanie kolegyni |
 | 113 | Mac v taške sa už neuvarí | awake služba uspí Mac pri prehriatí alebo batérii pod 33 %, aj pri ručnom awake on, zaklapnuté veko hneď, otvorené po 5 min nečinnosti, overené testami |
+| 114 | Strážnik, ktorý mlčí | automaty, ktoré hlásia úspech a nič nevyrobia; kontrola výsledku namiesto procesu, opravár opraví známe chyby a neznáme navrhne, Claudova oprava nikdy sama |

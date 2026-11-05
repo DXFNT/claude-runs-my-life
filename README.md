@@ -131,3 +131,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 112 | Kotva z účtovníctva, nie z hlavy | náklady minulej akcie z mesačného účtovného exportu (zálohy, nákupy), kotva na hlavu len interne, dopyty bez rozpočtu, strážnik na odpovede a odovzdanie kolegyni |
 | 113 | Mac v taške sa už neuvarí | awake služba uspí Mac pri prehriatí alebo batérii pod 33 %, aj pri ručnom awake on, zaklapnuté veko hneď, otvorené po 5 min nečinnosti, overené testami |
 | 114 | Strážnik, ktorý mlčí | automaty, ktoré hlásia úspech a nič nevyrobia; kontrola výsledku namiesto procesu, opravár opraví známe chyby a neznáme navrhne, Claudova oprava nikdy sama |
+| 115 | Ročný plán článkov za dopoludnie | z tisícok dopytov v Googli a produktového feedu ročný redakčný plán magazínu a newslettera; len témy, ktoré ľudia hľadajú a ku ktorým je tovar skladom, s osnovou, odkazmi a predmetom newslettera |

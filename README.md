@@ -133,3 +133,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 114 | Strážnik, ktorý mlčí | automaty, ktoré hlásia úspech a nič nevyrobia; kontrola výsledku namiesto procesu, opravár opraví známe chyby a neznáme navrhne, Claudova oprava nikdy sama |
 | 115 | Ročný plán článkov za dopoludnie | z tisícok dopytov v Googli a produktového feedu ročný redakčný plán magazínu a newslettera; len témy, ktoré ľudia hľadajú a ku ktorým je tovar skladom, s osnovou, odkazmi a predmetom newslettera |
 | 116 | Kto vlastne riadi tvoj trh? | zahraničný trh klienta od inej agentúry: kto čo robí z histórie zmien, porovnanie len so susedným trhom v rovnakom jazyku, diery v Google a Mete, starý web, dvojstranový návrh pilotu a zoznam prístupov |
+| 117 | Brána bez kľúča | audit hotový, ale obchodník bez účtu na hube sa k nemu nedostal; over prístup adresáta, meno a heslo do mailu, tri príležitosti rozpísané po bodoch |

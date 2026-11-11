@@ -134,3 +134,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 115 | Ročný plán článkov za dopoludnie | z tisícok dopytov v Googli a produktového feedu ročný redakčný plán magazínu a newslettera; len témy, ktoré ľudia hľadajú a ku ktorým je tovar skladom, s osnovou, odkazmi a predmetom newslettera |
 | 116 | Kto vlastne riadi tvoj trh? | zahraničný trh klienta od inej agentúry: kto čo robí z histórie zmien, porovnanie len so susedným trhom v rovnakom jazyku, diery v Google a Mete, starý web, dvojstranový návrh pilotu a zoznam prístupov |
 | 117 | Brána bez kľúča | audit hotový, ale obchodník bez účtu na hube sa k nemu nedostal; over prístup adresáta, meno a heslo do mailu, tri príležitosti rozpísané po bodoch |
+| 118 | Obchod, ktorý sa dá skopírovať | bývalý klient späť po dvoch calloch: jeden nález na otvorenie, audit zvonku bez prístupov, ponuka ako prezentácia z jeho dát; tímu to ukázať skutočnými mailmi, nie opisom |

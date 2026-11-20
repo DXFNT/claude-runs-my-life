@@ -152,3 +152,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 133 | Slušný k cudzím, ticho k svojim | Pozvánky od asistenta chodili len externým, kolegom nič; porovnanie ručných a automatických stretnutí, oprava pravidla pri koreni; „nemám to“ = najprv spam |
 | 134 | Lead, ktorý chce hovor, dostane hovor | Formuláre z reklám tečú do tabuľky aj CRM, pri leade typ reklamy a odkaz na ňu; kto chcel konzultáciu a 2 dni ticho, dostane rovno pozvánku s obchodníkom; hovory sa zapisovali inde, než sme hľadali |
 | 135 | Hodina, ktorá ušetrila mail | Platby bez dokladu z výpisu, faktúry existujú len nezadané, jedna bola výzva inkasnej firmy; pred odpoveďou znova prečítať vlákno, kolega medzitým poslal tri zo štyroch |
+| 136 | Úrad bez okienka | AML novela, povinnosť vzniká samotnou živnosťou v registri; nepoužívané finančné živnosti v troch firmách zrušené všeobecným podaním na slovensko.sk, podpis ostáva človeku |

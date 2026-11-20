@@ -149,3 +149,4 @@ Dexfinity internal. Public repo na zdieľanie deck-u, kód je MIT-style reusable
 | 130 | Koľko z toho budem mať ja? | Accountovi spočítať, čo mu upsell prinesie v eurách priamo z nastavení projektov (balík, mesačná správa, prvý rok, návratnosť hodín na príprave); motivácia namiesto výčitky |
 | 131 | Nedá sa? Skús cz | Staré „nedá sa“ v pamäti stálo na zlom kóde jazyka (cs namiesto cz); pracovné inzeráty v troch jazykoch prepojené cez API a skript, ktorý obnoví dátumy otvorených pozícií pred vypadnutím z Google Jobs |
 | 132 | Diff je najlepší učiteľ | Môj draft verzus odoslaná verzia mailu riadok po riadku, každá úprava do pravidiel tónu alebo do skillu, ktorý mail píše; podklady klientovi pred stretnutím deň vopred, nie ráno |
+| 133 | Slušný k cudzím, ticho k svojim | Pozvánky od asistenta chodili len externým, kolegom nič; porovnanie ručných a automatických stretnutí, oprava pravidla pri koreni; „nemám to“ = najprv spam |
